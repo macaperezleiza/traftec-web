@@ -1,0 +1,30 @@
+
+
+.banner-servicios{
+	background-image: url('../img/bg-muestra.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	height: 60vh;
+}
+
+.banner-servicios h1{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.5);
+	font-weight: 700;
+	font-size: 5vw;
+	color: #e54c00;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bg-grey{
+	background-color: rgba(0,0,0,0.1);
+}
+
+.servicios h3{
+	text-align: left;
+}

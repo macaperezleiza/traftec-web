@@ -1,0 +1,237 @@
+/* ---------------------------- GENERICO */
+
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.menu-principal{
+	padding: 2vw 10vw !important;
+}
+
+.menu-principal img{
+	width: 10em;
+}
+
+.menu-principal ul li a{
+	color: black !important;
+	text-align: center;
+	font-size: 20px !important;
+}
+
+
+/* ---------------------------- TEXT */
+
+.class-h2{
+	font-weight: 700 ;
+	margin-bottom: 28px;
+	color: #e54c00;
+}
+
+.class-h3{
+	color: #e54c00;
+	font-weight: 700;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.class-h4{
+	font-size: 34px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+.class-h5{
+	font-size: 30px;
+	text-align: left;
+	margin-bottom: 20px;
+	color: #e54c00;
+	font-weight: 600;
+}
+
+@media screen and (min-width: 1300px){
+	.class-h2{
+		font-size: 80px !important;;
+		margin-bottom: 28px;
+	}
+
+	.class-h3{
+		font-size: 40px !important;
+		margin-bottom: 28px;
+	}
+
+	.class-h4{
+		font-size: 34px !important;
+		margin-bottom: 16px;
+	}
+
+	.class-h5{
+		font-size: 35px !important;
+		margin-bottom: 16px;
+	}
+
+  	p {
+		font-size: 28px;
+		margin-bottom: 28px;
+	}
+}
+
+@media screen and (max-width: 1300px) and (min-width: 768px){
+	.class-h2{
+		font-size: 60px !important;
+		margin-bottom: 24px;
+	}
+
+	.class-h3{
+		font-size: 35px !important;
+		margin-bottom: 24px;
+	}
+
+	.class-h4{
+		font-size: 30px !important;
+		margin-bottom: 16px;
+	}
+
+	.class-h5{
+		font-size: 28px !important;
+		margin-bottom: 16px;
+	}
+
+  	p {
+		font-size: 24px;
+		margin-bottom: 24px;
+	}
+}
+
+@media screen and (max-width: 768px) and (min-width: 375px){
+	.class-h2{
+		font-size: 50px !important;
+		margin-bottom: 20px;
+	}
+
+	.class-h3{
+		font-size: 30px !important;
+		margin-bottom: 20px;
+	}
+
+	.class-h4{
+		font-size: 24px !important;
+		margin-bottom: 16px;
+	}
+
+	.class-h5{
+		font-size: 22px !important;
+		margin-bottom: 16px;
+	}
+
+
+  	p {
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+}
+
+
+@media (max-width: 375px){
+	.class-h2{
+		font-size: 30px !important;
+		margin-bottom: 16px;
+	}
+
+	.class-h3{
+		font-size: 20px !important;
+		margin-bottom: 16px;
+	}
+
+	.class-h4{
+		font-size: 20px !important;
+		margin-bottom: 14px;
+	}
+
+	.class-h5{
+		font-size: 20px !important;
+		margin-bottom: 14px;
+	}
+
+
+  	p {
+		font-size: 16px;
+		margin-bottom: 16px;
+	}
+}
+
+
+/* ----------------------------- TAMAÑO CONTENEDORES */
+
+.cont-ancho{
+	padding: 5vw 10vw !important;
+}
+
+/* ----------------------------- BOTON */
+
+.button{
+	width: 300px;
+	padding: 10px 20px;
+	background-color: #e54c00;
+	color: white;
+	font-size: 2vw;
+	border-radius: 50px;
+	margin-top: 20px;
+}
+
+/* ----------------------------- CASOS DE ESTUDIO - GALERÍA */
+
+
+.casos-estudio a:hover{
+	opacity: 0.5;
+}
+
+
+/* ------------- behance */ 
+
+.behance a{
+	color: #e54c00;
+}
+
+.behance a:hover{
+	color: #e54c00;
+	text-decoration: underline;
+}
+
+/* ----------------------------- FOOTER */
+
+
+footer{
+	background-image: url('../img/footer.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	padding: 5vw 10vw !important;
+}
+
+footer img{
+	width: 300px;
+}
+
+footer p{
+	color: white;
+}
+
+.social-media img{
+	width: 45px;
+}
+
+.unirte-grupo h6{
+	font-size: 30px;
+	font-weight: 700;
+	color: #e54c00;
+	margin-bottom: 20px;
+}
+
+

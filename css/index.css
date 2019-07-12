@@ -1,0 +1,91 @@
+/* ----- MENU */
+
+.menu-principal ul li a{
+	color: white !important;
+}
+
+
+/* ------------- primer fold */ 
+
+.bg-home{
+	background-image: url('../img/bg-muestra.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	height: 100vh;
+}
+
+.bg-home h1{
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	font-size: 5vw;
+	padding-top: 15%;
+}
+
+.bg-home h1 strong{
+	color: #e54c00;
+	font-weight: 700;
+}
+
+/* ------------- especializaciones */ 
+
+.nos-especializamos{
+	background-image: url('../img/bg-especializamos.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+}
+
+.nos-especializamos h4{
+	color: white;
+	font-weight: 700;
+}
+
+.especializacion{
+	background-color: rgba(0,0,0,0.5);
+	padding: 20px;
+} 
+
+.especializacion img{
+	height: 200px;
+}
+
+.especializacion p{
+	color: #ccc;
+	font-size: 20px;
+}
+
+.especializacion a{
+	color: #e54c00;
+	font-size: 20px;
+}
+
+/* ------------- casos de estudio */ 
+
+.casos-estudio h3{
+	color: #FFF;
+	font-weight: 700;
+	background: black;
+	padding: 2vw 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+
+/* ------------- contacto */ 
+
+.contacto{
+	background-image: url('../img/bg-calltoaction.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	height: 60vh;
+}
+
+.contacto h2{
+	color: white;
+}

@@ -1,0 +1,11 @@
+
+/*--------------- PORTFOLIO ITEM */
+
+.banner-intro{
+	background-image: url('../img/bg-muestra.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: black;
+	height: 60vh;
+}
